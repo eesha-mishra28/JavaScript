@@ -26,8 +26,11 @@ for(let i=0;i<marks.length;i++){
 }
 let avg=sum/marks.length;
 console.log(avg);*/
-let prize=[99,90,98];
+/*let prize=[99,90,98];
 for(let i=0;i<prize.length;i++){
   prize[i]=prize[i]/10;
 }
-console.log(prize);
+console.log(prize);*/
+let companies=["a","b","c"];
+console.log(companies.shift());
+companies.splice(2,1,"d");
